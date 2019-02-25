@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9DAAAA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_info"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/item_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:layout_marginLeft="@dimen/margins_left_right"
+        android:layout_marginRight="@dimen/margins_left_right"
+        android:padding="@dimen/padding"
+        android:inputType="text"
+        android:background="#EEEC21"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hints_item_name"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/item_vendor_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:layout_marginLeft="@dimen/margins_left_right"
+        android:layout_marginRight="@dimen/margins_left_right"
+        android:padding="@dimen/padding"
+        android:inputType="text"
+        android:background="#EEEC21"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hints_item_vendor"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/item_qty_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margins_left_right"
+        android:layout_marginRight="@dimen/margins_left_right"
+        android:padding="@dimen/padding"
+        android:cursorVisible="true"
+        android:inputType="numberDecimal"
+        android:background="#EEEC21"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hints_item_qty"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/item_price_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margins_left_right"
+        android:layout_marginRight="@dimen/margins_left_right"
+        android:padding="@dimen/padding"
+        android:inputType="numberDecimal"
+        android:cursorVisible="true"
+        android:background="#EEEC21"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hints_item_price"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/item_update_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:inputType="numberDecimal"
+        android:cursorVisible="true"
+        android:background="#eeec21"
+        android:layout_marginRight="@dimen/margins_left_right"
+        android:layout_marginLeft="@dimen/margins_left_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/hints_item_id" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/relative_layout_margin_top">
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:text="@string/button_save"
+            android:layout_marginLeft="@dimen/margins_left_right"
+            android:background="#56CEDA"/>
+
+        <Button
+            android:id="@+id/display_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:text="@string/button_display"
+            android:layout_toRightOf="@id/save_button"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:background="#56CEDA"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/relative_layout_margin_top">
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:text="@string/button_updating"
+            android:layout_marginLeft="@dimen/margins_left_right"
+            android:background="#56CEDA"/>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:text="@string/button_delete"
+            android:layout_toRightOf="@id/update_button"
+            android:layout_marginLeft="@dimen/button_margin"
+            android:background="#56CEDA"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

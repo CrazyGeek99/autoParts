@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AutoParts</string>
+
+    <string name="item_info">Item info</string>
+
+    <!-- EditText hints -->
+    <string name="hints_item_name">item name</string>
+    <string name="hints_item_vendor">item vendor</string>
+    <string name="hints_item_qty">item quantity</string>
+    <string name="hints_item_price">item price</string>
+    <string name="hints_item_id">item ID for updating or deletion </string>
+
+    <!-- Button hints -->
+    <string name="button_save">SAVE</string>
+    <string name="button_display">DISPLAY</string>
+    <string name="button_updating">UPDATE</string>
+    <string name="button_delete">DELETE</string>
+
+
+</resources>

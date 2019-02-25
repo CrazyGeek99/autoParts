@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margins_left_right">20dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="button_margin">100dp</dimen>
+
+    <dimen name="relative_layout_margin_top">30dp</dimen>
+
+
+</resources>
